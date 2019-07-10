@@ -49,7 +49,7 @@ class _MoreViewState extends State<MoreView>{
     datas.addAll(widget.subjects);
     start = widget.subjects.length;
 
-    if(start == 0 && widget.requestMore)
+    if(start == 0 && widget.requestMore) //不请求更多
       _requestFromServer();
 
 //      _readFromLocal();

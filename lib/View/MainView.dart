@@ -168,7 +168,7 @@ class _MainPageState extends State<MainPage>{
     );
   }
 
-  Widget _titleBar(String title, {String url, List subjects, bool hasSubject, bool requestMore}){
+  Widget _titleBar(String title, {String url, List subjects, bool hasSubject = false, bool requestMore = true}){
     return Padding(
       padding: EdgeInsets.fromLTRB(13, 0, 0, 0),
       child: Row(
